@@ -23,6 +23,7 @@ namespace SaveMoney
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void btncalculaate_Click(object sender, RoutedEventArgs e)

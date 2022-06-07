@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SaveMoney"
         mc:Ignorable="d"
         Title="โปรเเกรมเก็บออมเงิน" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="savemoney">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF8153BF" Offset="0"/>
@@ -23,7 +23,7 @@
         <Label Content="บาท/วัน" HorizontalAlignment="Left" Margin="448,189,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="บาท" HorizontalAlignment="Left" Margin="456,235,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="คุณต้องเก็บเงินทั้งหมด" HorizontalAlignment="Left" Margin="323,267,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <TextBox x:Name="textbox_day" HorizontalAlignment="Left" Margin="469,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="16" RenderTransformOrigin="0.5,0.5" Background="#FFF4C3F4">
+        <TextBox x:Name="textbox_day" HorizontalAlignment="Left" Margin="469,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="16" RenderTransformOrigin="0.5,0.5" Background="#FFF4C3F4" IsEnabled="False">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
