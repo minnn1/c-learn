@@ -23,6 +23,18 @@ namespace C_Sharp_Solution
         public MainWindow()
         {
             InitializeComponent();
+            customer customer = new customer();
+            //ชื่อคลาส ชื่อตัวเเปร = new ชื่อคลาส();
+            customer.Firstname = "สมชาย";
+        }
+        private void buttonshow_Click(object sender, RoutedEventArgs e)
+        {
+            customer customer1 = new customer();
+            customer customer2 = new customer();
+            customer1.Firstname = textboxFname.Text;
+            customer1.Lastname = textboxLname.Text;
+            MessageBox.Show("hello "+customer1.Firstname+" "+customer1.Lastname);
+
         }
     }
 }
